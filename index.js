@@ -4,6 +4,7 @@ var path=require("path");
 var session=require("express-session");
 require("dotenv").config();
 
+//ESTE ES UN CAMBIO
 var app=express();
 app.set("view engine","ejs");
 app.use("/web",express.static(path.join(__dirname,"/web")));
